@@ -5,3 +5,4 @@ functionality of the original CW308 board, but at a much lower price-point. It a
 cost-optimized CW312 card edge connector.
 
 
+![](cw313_render.jpg)
