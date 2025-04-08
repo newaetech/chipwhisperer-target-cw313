@@ -150,93 +150,131 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LCOXMCWL
 
+[Document7]
+DocumentPath=CW313_20pinToTarget.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document8]
+DocumentPath=CW313.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SAQNPBVJ
+
 [GeneratedDocument1]
-DocumentPath=OUTPUT\FILES\NC Drill\CW313.DRR
+DocumentPath=OUTPUT\FILES\BOM\Copy of Bill of Materials-CW313_20pinToTarget.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=OUTPUT\FILES\Gerber\CW313.EXTREP
+DocumentPath=OUTPUT\FILES\NC Drill\CW313.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=OUTPUT\FILES\Gerber\CW313.G1
+DocumentPath=OUTPUT\FILES\Gerber\CW313.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=OUTPUT\FILES\Gerber\CW313.G2
+DocumentPath=OUTPUT\FILES\Gerber\CW313.G1
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=OUTPUT\FILES\Gerber\CW313.GBL
+DocumentPath=OUTPUT\FILES\Gerber\CW313.G2
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=OUTPUT\FILES\Gerber\CW313.GBO
+DocumentPath=OUTPUT\FILES\Gerber\CW313.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=OUTPUT\FILES\Gerber\CW313.GBP
+DocumentPath=OUTPUT\FILES\Gerber\CW313.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=OUTPUT\FILES\Gerber\CW313.GBS
+DocumentPath=OUTPUT\FILES\Gerber\CW313.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=OUTPUT\FILES\Gerber\CW313.GM1
+DocumentPath=OUTPUT\FILES\Gerber\CW313.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=OUTPUT\FILES\Gerber\CW313.GTL
+DocumentPath=OUTPUT\FILES\Gerber\CW313.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=OUTPUT\FILES\Gerber\CW313.GTO
+DocumentPath=OUTPUT\FILES\Gerber\CW313.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=OUTPUT\FILES\Gerber\CW313.GTP
+DocumentPath=OUTPUT\FILES\Gerber\CW313.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=OUTPUT\FILES\Gerber\CW313.GTS
+DocumentPath=OUTPUT\FILES\Gerber\CW313.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=OUTPUT\FILES\NC Drill\CW313.LDP
+DocumentPath=OUTPUT\FILES\Gerber\CW313.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=OUTPUT\FILES\Gerber\CW313.REP
+DocumentPath=OUTPUT\FILES\NC Drill\CW313.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=OUTPUT\FILES\Gerber\CW313.RUL
+DocumentPath=OUTPUT\FILES\Gerber\CW313.REP
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=OUTPUT\FILES\NC Drill\CW313.TXT
+DocumentPath=OUTPUT\FILES\Gerber\CW313.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument18]
+DocumentPath=OUTPUT\FILES\NC Drill\CW313.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument19]
 DocumentPath=Project Outputs for CW313_20pinToTarget\Design Rule Check - CW313.html
 DItemRevisionGUID=
 
+[GeneratedDocument20]
+DocumentPath=OUTPUT\FILES\Pick Place\Pick Place for CW313.csv
+DItemRevisionGUID=
+
 [Parameter1]
-Name=PrjRev
-Value=02
+Name=PrjLicense
+Value=CC SA 3.0
 
 [Parameter2]
 Name=PrjName
 Value=20-Pin to  Card-Edge
 
 [Parameter3]
-Name=PrjLicense
-Value=CC SA 3.0
-
-[Parameter4]
-Name=
-Value=
+Name=PrjRev
+Value=02
 
 [Configuration1]
 Name=Sources
@@ -358,6 +396,16 @@ OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
+OutputType22=SIMetrixNetlist
+OutputName22=SIMetrix
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=SIMPLISNetlist
+OutputName23=SIMPLIS
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -369,6 +417,16 @@ OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -596,6 +654,12 @@ OutputName8=Report Single Pin Nets
 OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
+OutputType9=Export Project History
+OutputName9=Export Project History
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
@@ -809,6 +873,11 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -941,6 +1010,7 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
+Type120=1
 
 [Difference Levels]
 Type1=1
